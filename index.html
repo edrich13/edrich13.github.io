@@ -63,17 +63,8 @@
                   <li data-menuanchor="about">
                     <a href="#about">About</a>
                   </li>
-                  <li data-menuanchor="service">
-                    <a href="#service">Services</a>
-                  </li>
-                  <li data-menuanchor="portfolio">
-                    <a href="#portfolio">Portfolio</a>
-                  </li>
                   <li data-menuanchor="client-testimonial">
                     <a href="#client-testimonial">Testimonial</a>
-                  </li>
-                  <li data-menuanchor="blog">
-                    <a href="#blog">Blog</a>
                   </li>
                   <li data-menuanchor="contact">
                     <a href="#contact">Contact</a>
@@ -506,15 +497,14 @@
         </div>
       </section>
       <!--End Client Testimonial Section Area-->
+
       <!--Start Contact Section-->
       <section class="contact footer pp-scrollable section" id="contact">
         <div class="content-container">
           <div class="display-table">
             <div class="display-content">
               <div class="contact-header">
-                <div class="title-small">
-                  <p>CONTACT ME</p>
-                </div>
+                <div class="title-small"><p>CONTACT ME</p></div>
                 <h4 class="section-title">Get In Touch</h4>
               </div>
               <div class="contact-content">
@@ -552,18 +542,74 @@
                         </p>
                         <div class="social-icons">
                           <p>Find:</p>
-                          <a href="#"></a> <a href="#"></a> <a href="#"></a>
-                          <a href="#"></a>
-                          <a href="#"></a>
+                          <a href="https://facebook.com/edrichrocha13"
+                            ><i class="fab fa-facebook-f"></i
+                          ></a>
+                          <a href="https://twitter.com/EdrichRocha"
+                            ><i class="fab fa-twitter"></i
+                          ></a>
+                          <a href="https://www.instagram.com/edrich13/"
+                            ><i class="fab fa-instagram"></i
+                          ></a>
+                          <a href="https://www.linkedin.com/in/edrich-rocha/"
+                            ><i class="fab fa-linkedin-in"></i
+                          ></a>
                         </div>
                       </div>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12">
-                      <img
-                        src="./images/contact.jpeg"
-                        alt="contact edrich"
-                        class="img-fluid"
-                      />
+                      <div class="contact-form">
+                        <form
+                          class="contact-form-area"
+                          action="contact.php"
+                          method="post"
+                        >
+                          <div class="row">
+                            <div class="col-md-6">
+                              <input
+                                type="text"
+                                name="name"
+                                placeholder="Name"
+                                id="form-name"
+                              />
+                            </div>
+                            <div class="col-md-6">
+                              <input
+                                type="text"
+                                name="email"
+                                placeholder="Email"
+                                id="form-email"
+                              />
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-12">
+                              <input
+                                type="text"
+                                name="subject"
+                                placeholder="Subject"
+                                id="form-subject"
+                              />
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-12">
+                              <textarea
+                                placeholder="Type here"
+                                name="message"
+                                id="form-message"
+                              ></textarea>
+                              <input
+                                type="submit"
+                                class="submit-btn btn-style1 clearfix"
+                                value="Submit"
+                                id="contact-submit"
+                              />
+                              <div class="result"></div>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
                     </div>
                   </div>
                 </div>
